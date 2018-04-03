@@ -24,11 +24,11 @@ The above script will create a new folder called `webdev` in your `My Documents`
 * nGinx – For storing an instance of nGinx purely for this project
 * ssl – For the OpenSSL certificate files
 
-![webdev](/img/Project%20Folders%20-%2002%20-%20Documents%20-%20webdev.png)
+![webdev](img/Project%20Folders%20-%2002%20-%20Documents%20-%20webdev.png)
   
 ### Extract nGinx
 From the `Downloads` folder, double-click on the **nginx** Zip file and navigate down until you can see the sub-folders and `nginx.exe`. Select all of the files and copy them to the `webdev\nginx` folder.
  
 Once done you should only see some subfolders and `nginx.exe` in the root folder:
 
-![nginx](/img/Project%20Folders%20-%2003%20-%20Downloads%20-%20nginx.png)
+![nginx](img/Project%20Folders%20-%2003%20-%20Downloads%20-%20nginx.png)
