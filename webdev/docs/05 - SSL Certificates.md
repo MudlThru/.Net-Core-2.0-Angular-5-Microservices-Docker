@@ -22,36 +22,36 @@ The `cert.pem` and `cert.key` will be used by nGinx for our local web server, we
 ### Trusting our certificate
 In the `webdev\ssl` folder right-click on the `localhost.pfx` file and select **Install PFX** from the context menu.
 
-![Install PFX](img/Project Folders - 05 - Documents - webdev - ssl - install cert.png)
+![Install PFX](img/Project%20Folders%20-%2005%20-%20Documents%20-%20webdev%20-%20ssl%20-%20install cert.png)
  
 In the Store Location box select **Current User** and then click **Next**.
 
-![Current User](img/Project Folders - 06 - Cert Import - Current User.png)
+![Current User](img/Project%20Folders%20-%2006%20-%20Cert%20Import%20-%20Current%20User.png)
  
 The files path will be populated for you, click Next:
 
-![File name](img/Project Folders - 07 - Cert Import - File name.png)
+![File name](img/Project%20Folders%20-%2007%20-%20Cert%20Import%20-%20File%20name.png)
  
 Enter a password, this is so you can export the private key later. For our purposes any password will do:
 
-![Password](img/Project Folders - 08 - Cert Import - Password.png)
+![Password](img/Project%20Folders%20-%2008%20-%20Cert%20Import%20-%20Password.png)
  
 For the certificate store, select **Place all certificates in the following store** and then browse to **Trusted Root Certification Authorities**, then click **Next**:
 
-![Cert store](img/Project Folders - 09 - Cert Import - Cert Store.png)
+![Cert store](img/Project%20Folders%20-%2009%20-%20Cert%20Import%20-%20Cert%20Store.png)
  
 Click **Finish**:
 
-![Completion](img/Project Folders - 10 - Cert Import - Finish.png)
+![Completion](img/Project%20Folders%20-%2010%20-%20Cert%20Import%20-%20Finish.png)
  
 A security warning box will show, click **Yes**. _We can trust this certificate because we created it._
 
-![Security prompt](img/Project Folders - 11 - Cert Import - Confirm.png)
+![Security prompt](img/Project%20Folders%20-%2011%20-%20Cert%20Import%20-%20Confirm.png)
  
 To check your certificate open the **Start** menu and type in `cert`, then select **Manage user certificates** from the search results:
 
-![Manage Certs](img/Project Folders - 12 - Start - Manage Certs.png)
+![Manage Certs](img/Project%20Folders%20-%2012%20-%20Start%20-%20Manage%20Certs.png)
  
 Navigate to **Trusted Root Certification Authorities** > **Certificates**, you should then see your **localhost** certificate in the list. _If you need to remove the certificate you can do so from here._
 
-![certmgr](img/Project Folders - 13 - certmgr - Trusted Root - Certificates.png)
+![certmgr](img/Project%20Folders%20-%2013%20-%20certmgr%20-%20Trusted%20Root%20-%20Certificates.png)

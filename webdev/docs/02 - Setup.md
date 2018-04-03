@@ -23,11 +23,11 @@ Here is the Manual process to download and install the following applications, I
 #### Visual Studio Code
 Visit https://code.visualstudio.com/ and click on the “Download for Windows” link.
 
-![Additional Options](/img/Setup - 01 - VSCode - Additional Tasks.png)
+![Additional Options](img/Setup%20-%2001%20-%20VSCode%20-%20Additional%20Tasks.png)
 
 I’m going to select all of the options, as I am using a clean machine. You may want to customize depending on your existing setup.
 
-![Git prompt](/img/Setup - 02 - VSCode - Git Prompt.png)
+![Git prompt](img/Setup%20-%2002%20-%20VSCode%20-%20Git%20Prompt.png)
  
 VS Code will prompt you to download and install Git, if it’s not already installed, we’ve already downloaded Git so you can ignore this message.
  
@@ -38,25 +38,25 @@ Once the file has downloaded run the executable to install Git.
 
 Select any preferred options.
 
-![Select Components](/img/Setup - 03 - Git - Select Components.png)
+![Select Components](img/Setup%20-%2003%20-%20Git%20-%20Select%20Components.png)
 
 If VS Code isn’t already installed, you won’t be able to select the Use Visual Studio Code option.
 
-![Editor Options - No VS Code](/img/Setup - 04 - Git - Default Editor - VSCode disabled.png)
+![Editor Options - No VS Code](img/Setup%20-%2004%20-%20Git%20-%20Default%20Editor%20-%20VSCode%20disabled.png)
 
 When VS Code is installed you can select this option and proceed.
 
-![Editor Options - With VS Code](/img/Setup - 05 - Git - Default Editor - VSCode enabled.png)
+![Editor Options - With VS Code](img/Setup%20-%2005%20-%20Git%20-%20Default%20Editor%20-%20VSCode%20enabled.png)
  
-![HTTPS Transport](/img/Setup - 06 - Git - HTTPS transport backend.png)
+![HTTPS Transport](img/Setup%20-%2006%20-%20Git%20-%20HTTPS%20transport%20backend.png)
 
 Select Unix-style line endings, this makes things a lot easier when working with the Debian instances later.
 
-![Line Endings](/img/Setup - 07 - Git - Line ending.png)
+![Line Endings](img/Setup%20-%2007%20-%20Git%20-%20Line%20ending.png)
  
 I’m going to select the Windows default console window, mostly because I’m old fashioned also because it works with NodeJS.
 
-![Terminal](/img/Setup - 08 - Git - Terminal.png)
+![Terminal](img/Setup%20-%2008%20-%20Git%20-%20Terminal.png)
 
 #### 7Zip
 This will be required later for the OpenSSL install, but is generally quite useful for use with Zip archives.
@@ -68,19 +68,19 @@ Once downloaded run the executable (.exe).
 #### Node
 Visit https://nodejs.org and download the latest version, alternatively use the link below.
 
-![Start](/img/Setup - 09 - NodeJS - Start.png)
+![Start](img/Setup%20-%2009%20-%20NodeJS%20-%20Start.png)
 
-![Finish](/img/Setup - 10  NodeJS - Finish.png)
+![Finish](img/Setup%20-%2010%20%20NodeJS%20-%20Finish.png)
  
 #### OpenSSL
 Visit https://slproweb.com/products/Win32OpenSSL.html and download the light/standard version of OpenSSL.
 Once downloaded run the executable (.exe).
 
-![Location](/img/Setup - 11 - OpenSSL - Location.png)
+![Location](img/Setup%20-%2011%20-%20OpenSSL%20-%20Location.png)
 
-![DLLs](/img/Setup - 12 - OpenSSL - DLLs Location.png)
+![DLLs](img/Setup%20-%2012%20-%20OpenSSL%20-%20DLLs%20Location.png)
 
-![Install](/img/Setup - 13 - OpenSSL - Install.png)
+![Install](img/Setup%20-%2013%20-%20OpenSSL%20-%20Install.png)
  
 #### DotNet Core SDK
 As we’re going to be building some dotnet Core WebAPI applications we are going to require the dotnet Core SDK.
@@ -89,9 +89,9 @@ Visit https://www.microsoft.com/net/learn/get-started/windows and click on the �
 
 Once downloaded run the executable (.exe)
 
-![Start](/img/Setup - 14 - DotNet Core - Start.png)
+![Start](img/Setup%20-%2014%20-%20DotNet%20Core%20-%20Start.png)
 
-![Finish](/img/Setup - 15 - DotNet Core - Finish.png)
+![Finish](img/Setup%20-%2015%20-%20DotNet%20Core%20-%20Finish.png)
  
 #### nGinx
 Visit http://nginx.org/en/download.html and download the latest Zipped version.
