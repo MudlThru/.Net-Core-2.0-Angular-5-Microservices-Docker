@@ -15,7 +15,7 @@ Next go back to VS Code and copy the code below, saving it to `webdev\ssl\create
 
 This script creates three files a random key (`cert.key`), a certificate (`cert.pem`) and a personal certificate we can use in .Net or IIS (`localhost.pfx`).
 
-![SSL](img/Project Folders - 04 - Documents - webdev - ssl.png)
+![SSL](img/Project%20Folders%20-%2004%20-%20Documents%20-%20webdev%20-%20ssl.png)
 
 The `cert.pem` and `cert.key` will be used by nGinx for our local web server, we can use the `localhost.pfx` for testing in VSCode.
  
