@@ -22,7 +22,7 @@ The `cert.pem` and `cert.key` will be used by nGinx for our local web server, we
 ### Trusting our certificate
 In the `webdev\ssl` folder right-click on the `localhost.pfx` file and select **Install PFX** from the context menu.
 
-![Install PFX](img/Project%20Folders%20-%2005%20-%20Documents%20-%20webdev%20-%20ssl%20-%20install cert.png)
+![Install PFX](img/Project%20Folders%20-%2005%20-%20Documents%20-%20webdev%20-%20ssl%20-%20install%20cert.png)
  
 In the Store Location box select **Current User** and then click **Next**.
 
