@@ -1,0 +1,21 @@
+﻿<div class="panel panel-primary {{class}}">
+    <div class="panel-heading">
+        <span class="glyphicon"></span>
+        <h4>{{title}}</h4>
+    </div>
+    <div class="panel-body">
+        <ul class="list-group">
+            <li class="list-group-item" 
+                *ngFor="let value of values"
+                [class.selected]="value === selectedValue"
+                (click)="onSelect(value)">
+				<!--
+                <img src="https://lorempixel.com/50/50/?random={{value.Id}}" 
+                     alt="{{value.Title}}" class="img-circle" />
+				<span>{{value.Title}}</span>
+				-->
+				<span>{{value}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

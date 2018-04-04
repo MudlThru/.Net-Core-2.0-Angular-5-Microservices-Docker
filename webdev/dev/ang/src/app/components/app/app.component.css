@@ -1,0 +1,9 @@
+.body-content {
+	top: 50px;
+}
+
+@media (min-width: 768px) {
+  .body-content {
+    top: 0px;
+  }
+}

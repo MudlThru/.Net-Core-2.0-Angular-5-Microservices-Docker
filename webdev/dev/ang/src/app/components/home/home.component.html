@@ -1,0 +1,28 @@
+<p>This is the home page.</p>
+<div class="row">
+    <div class="col-lg-4">
+        Column 1
+        <value-list></value-list>
+    </div>
+    <div class="col-lg-4">
+        Column 2
+		<phptest></phptest>
+    </div>
+    <div class="col-lg-4">
+        Column 3
+		<admintest></admintest>
+    </div>
+</div>
+<script>
+	function supports_html5_storage() {
+		
+		try {
+			return 'localStorage' in window && window['localStorage'] !== null;
+		} catch (e) {
+			return false;
+		}
+	}
+	//alert(supports_html5_storage());
+	console.log("LocalStorage enabled: " + supports_html5_storage());
+</script>
+
